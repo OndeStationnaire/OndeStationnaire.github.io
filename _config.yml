@@ -1,12 +1,14 @@
-title: "RU5T_DRIFT"
+title: "RU5T_DR1FT"
 description: "Les Codes du Royaume — fiction post-apocalyptique"
 lang: fr
-theme: midnight
-
-midnight:
-  skin: dark
+theme: jekyll-theme-midnight
 
 exclude:
   - README.md
   - Test.txt
   - Test3.txt
+
+header_pages:
+  - index.md
+  - episodes.md
+  - presse/index.md
