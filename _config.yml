@@ -3,11 +3,9 @@ description: "Les Codes du Royaume — fiction post-apocalyptique"
 lang: fr
 theme: minima
 
-# Options du thème Minima
 minima:
   skin: dark
 
-# Exclure les fichiers inutiles
 exclude:
   - README.md
   - Test.txt
