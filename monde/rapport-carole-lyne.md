@@ -9,8 +9,7 @@ Grade: 5th Grade
 0446.05.17  
 Assignment: "Describe a memorable event and illustrate it"  
 
-![rapport-carole-lyne](/assets/img/rapport-carole-lyne.jpg)
-
+![rapport-carole-lyne](/assets/img/rapport-carole-lyne.jpg){: style="max-width: 50%; height: auto;"}
 
 ## The Day I Met the Looters in Hazmat Suits
 
