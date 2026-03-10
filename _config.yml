@@ -13,5 +13,6 @@ exclude:
 
 header_pages:
   - index.md
+  - monde/index.md
   - episodes/index.md
   - presse/index.md
