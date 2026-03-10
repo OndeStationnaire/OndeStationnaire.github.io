@@ -5,10 +5,10 @@ title: Rapport Carole-Lyne
 
 
 ## CREATIVE WRITING ASSIGNMENT
-Student: Carole-Lyne Ka
-Grade: 5th Grade
-0446.05.17
-Assignment: "Describe a memorable event and illustrate it"
+Student: Carole-Lyne Ka  
+Grade: 5th Grade  
+0446.05.17  
+Assignment: "Describe a memorable event and illustrate it"  
 
 ![rapport-carole-lyne](/assets/img/rapport-carole-lyne.jpg)
 
@@ -55,6 +55,6 @@ I don't think they would have. They seemed like the kind of people who follow ru
 
 Carole-Lyne, even though it wasn't specified, I would prefer that you don't use GenAI for the illustrations.
 
-However, this is a very interesting account, though I remain *extremely* concerned about your solo expeditions into the ruins. We should discuss it with your brother.
+However, this is a very interesting account, though I remain ***extremely*** concerned about your solo expeditions into the ruins. We should discuss it with your brother.
 
 Grade: B+
