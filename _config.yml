@@ -13,5 +13,5 @@ exclude:
 
 header_pages:
   - index.md
-  - episodes.md
+  - episodes/index.md
   - presse/index.md

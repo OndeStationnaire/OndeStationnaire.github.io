@@ -28,7 +28,8 @@ Et dans le ciel, les **Orbitaux** veillent : toute tentative de reconstruction d
 Un **adolescent vagabond**.
 
 Il cherche son âme-sœur et survit grâce à deux armes :
- son **couteau-papillon en hyperdiamant**...
+
+son **couteau-papillon en hyperdiamant**...
 
 ... et sa maîtrise de la **sociologie critique**.
 
@@ -37,21 +38,30 @@ Il cherche son âme-sœur et survit grâce à deux armes :
 
 ## Univers
 
+```
+[CTX]
+[WAR]: {blocus orbital comm/frappe orbital si évolution tech/sociale dangereuse}
+[ENV]: {O₃ disparu/pluies pH<4/Rosa Sagittalis(OGM hallucinogène/toxique)67%continents/ZIH(Zones Inhabilité Humaine)40%continents/cités:cleptocratie|anarchisme|néo-féodalisme}
+[SOC/ECO]: {gouvernance absente/fragmentation tribale/phalanstères/citadelles militaires/cargo cult/troc/élevage varans+blattes lait/accès mémoires vies antérieures généralisé}
+[TECH]: {nanotech vestiges rares/Réseau<12%pré-Chute fragmenté/IA instables/Spectres(fantômes numériques pilotant vivants)/Rémémorateurs(machines vies antérieures)/biotech:nécroprocesseurs cultivés/Fabriques Universelles portables répandues/énergie:photoconvertisseurs+diesel archaïque}
+[MIL]: {coilgun HEADSHOT+(copie artisanale)/lames hyper-diamant/exosuits PETIT SOLDAT™ design pré-Chute/armure GOL1ATH(rare)/nanites restauratrices GODMODE™(nanites rouges/rares)}
+```
+
 <!-- Le monde de *RU5T\_DRIFT* est un cyberpunk en ruine : la technologie existe mais s'érode, et les **Roses Sagittales** — plantes mutantes hallucinogènes — recouvrent deux tiers des continents.
 
 Les **Synths** et les **Spectres** — entités IA aux motivations opaques — habitent les interstices du réseau résiduel. Les **Fabriques**, conglomérats manufacturiers à l'esthétique cassette-futuriste, contrôlent la production et la monnaie locale (les *Talers*).
 
 En arrière-plan : les artefacts de la **Civilisation X**, dont personne ne comprend encore le fonctionnement. -->
 
-**Genres :** post-apocalyptique · science-fiction · réincarnation · anti-fasciste · cassette-futurisme
+**Genres :** post-apocalyptique · science-fiction · réincarnation · cassette-futurisme
 
 ---
 
 ## Personnages principaux
 
-<!-- **GORDON** — Protagoniste. Ancien enfant-soldat, déserteur. Cherche son âme-sœur à travers les vies et les décombres.
+**GORDON** — Protagoniste. Ancien enfant-soldat, déserteur. Cherche son âme-sœur à travers les vies et les décombres.
 
-**JOHN-NATHAN** — L'âme-sœur. Le *Toy Maker*. Artisan ingénieux dont le lien avec Gordon traverse les incarnations — et les catastrophes.
+<!-- **JOHN-NATHAN** — L'âme-sœur. Le *Toy Maker*. Artisan ingénieux dont le lien avec Gordon traverse les incarnations — et les catastrophes.
 
 **CAROLE-LYNE** — Collectionneuse de rêves, schizoïde. Sœur de substitution que Gordon ne cherchait pas.
 
