@@ -3,7 +3,7 @@ layout: home
 title: Accueil
 ---
 
-## Accueil
+![DUST_RIFT](/assets/img/pitch-01.jpg)
 
 *Fiction post-apocalyptique — 2026*
 
