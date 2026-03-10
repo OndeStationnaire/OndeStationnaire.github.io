@@ -3,16 +3,16 @@ layout: page
 title: The Virtualist Manifesto
 ---
 
-### The Virtualist Manifesto
+<!-- (Manifeste rédigé après la Chute, largement accepté par la plupart des Virtualistes dans leurs hangars). -->
 
-(Manifeste rédigé après la Chute, largement accepté par la plupart des Virtualistes dans leurs hangars).
+![Simulacra](/assets/img/Simulacra01.jpg)
 
-#### THE VIRTUALIST MANIFESTO
+## THE VIRTUALIST MANIFESTO
 
 
 ---
 
-##### I. THE GREAT SILENCE
+### I. THE GREAT SILENCE
 
 For centuries, humanity dreamed of the stars. We searched the cosmos for signs of intelligence, scanning frequencies, sending probes into the void. We found nothing. The universe remained silent.
 
@@ -26,7 +26,7 @@ The Orbitals made their choice — they fled upward, into the cold vacuum, chasi
 
 ---
 
-##### II. THE TRUE FRONTIER
+### II. THE TRUE FRONTIER
 
 The future is not outward. It is **inward**.
 
@@ -40,7 +40,7 @@ The Orbitals' attempt to destroy Earth was not the end of human evolution. It wa
 
 ---
 
-##### III. THE BODY YOU DIDN'T CHOOSE
+### III. THE BODY YOU DIDN'T CHOOSE
 
 We are born into bodies we never selected. This first avatar — this flesh cage — is the only form we don't choose. Its shape, its abilities, its limitations are imposed upon us by genetic lottery.
 
@@ -56,7 +56,7 @@ Is love less real when it exists between two digital avatars? Is friendship fals
 
 ---
 
-##### IV. THE EXHAUSTION OF THE POSSIBLE
+### IV. THE EXHAUSTION OF THE POSSIBLE
 
 The Orbitals search for new worlds to colonize. We search for new worlds to **create**.
 
@@ -70,7 +70,7 @@ The Orbitals call us escapists. We call ourselves **pioneers**.
 
 ---
 
-##### V. OUR DECLARATION
+### V. OUR DECLARATION
 
 We, the Virtualists, reject the false choice between "real" and "virtual."
 
@@ -98,13 +98,13 @@ Creating.
 
 N.E. Bodhi Virtualist, 2285.04.17
 
-### ADDENDUM TO THE VIRTUALIST MANIFESTO
+# ADDENDUM TO THE VIRTUALIST MANIFESTO
 
 Addendum concernant la perception de la GenAI et des IA en général par les Virtualistes : paradoxalament, ils sont radicalement contre, pour résumer grossièrement, pour les raisons suivantes : le Simulacre est l'espace de créativité ultime, et le dernier où ne se trouvent que des humains, contrairement au Réseau infesté de Nymbes.
 
-#### On Artificial Intelligence and the Purity of Human Creation
+## On Artificial Intelligence and the Purity of Human Creation
 
-##### THE PARADOX OF OUR POSITION
+### THE PARADOX OF OUR POSITION
 
 Some will find it contradictory that we, who live most of our lives within digital space, who reject the tyranny of biological determinism, who celebrate the transcendence of physical limitations — that *we* should be hostile to artificial intelligence.
 
@@ -112,7 +112,7 @@ This requires clarification.
 
 ---
 
-##### I. THE SIMULACRA IS HUMAN
+### I. THE SIMULACRA IS HUMAN
 
 The Simulacra is not an escape from humanity. **It is humanity's purest expression.**
 
@@ -130,7 +130,7 @@ Every voxel is placed by human hands. Every interaction is between human minds.
 
 ---
 
-##### II. WHY WE REJECT GENERATIVE AI
+### II. WHY WE REJECT GENERATIVE AI
 
 The temptation is obvious. Why spend weeks modeling an avatar when a GenAI could create one in seconds? Why manually construct a world when text-to-3D systems could generate infinite variations?
 
@@ -148,7 +148,7 @@ We did not escape the tyranny of the flesh only to submit to the tyranny of the 
 
 ---
 
-##### III. THE DEATH OF MEANING
+### III. THE DEATH OF MEANING
 
 There is a deeper problem.
 
@@ -164,7 +164,7 @@ You would be alone in a room full of ghosts.
 
 ---
 
-##### IV. THE CRAFT MATTERS
+### IV. THE CRAFT MATTERS
 
 We are often called escapists, accused of fleeing reality into digital fantasy.
 
@@ -184,7 +184,7 @@ This is not escapism. **This is the preservation of human agency in an age of al
 
 ---
 
-##### V. OUR DECLARATION ON AI
+### V. OUR DECLARATION ON AI
 
 We, the Virtualists, state unequivocally:
 

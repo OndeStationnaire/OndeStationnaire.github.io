@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Rapport Carole-Lyne
+title: CREATIVE WRITING ASSIGNMENT
 ---
 
 
-## CREATIVE WRITING ASSIGNMENT
 Student: Carole-Lyne Ka  
 Grade: 5th Grade  
 0446.05.17  

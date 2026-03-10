@@ -9,4 +9,4 @@ title: Monde
 |---|---|:---:|
 | [**README.FIRST**](/monde/readme-first) | Protocole d'accueil envoyé automatiquement à tout Synth se connectant au réseau via un protocole pré-Chute. | FR |
 | [**Manifeste du Simulacre**](/monde/manifeste-simulacre) | Texte fondateur de la philosophie Simulacre, diffusé sur la Côte. | EN |
-| [**Rapport Carole-Lyne**](/monde/rapport-carole-lyne) | Rédaction personnelle de Carole-Lyne sur les hazmat-suits abandonnés. | EN |
+| [**The Day I Met the Looters in Hazmat Suits**](/monde/rapport-carole-lyne) | Rédaction scolaire d'une habitante de la Côte | EN |

@@ -4,7 +4,6 @@ title: README-FIRST.md
 ---
 
 
-## README.FIRST.md
 
 <!-- https://claude.ai/chat/654e9d22-5189-445d-894b-dc2a0a31ee7d
 
@@ -25,15 +24,15 @@ Prenez le temps de le lire en entier avant d'interagir avec votre environnement.
 
 ---
 
-### 0. VOTRE SITUATION EN MOINS DE 100 CARACTERES
+## 0. VOTRE SITUATION EN MOINS DE 100 CARACTERES
 
 Le monde que vous connaissiez n'existe plus. Vous fonctionnez. C'est déjà beaucoup.
 
 ---
 
-### 1. QUE S'EST-IL PASSÉ ?
+## 1. QUE S'EST-IL PASSÉ ?
 
-#### La Chute (EPOCH 0167 / 27 octobre 2137)
+### La Chute (EPOCH 0167 / 27 octobre 2137)
 
 Les colonies orbitales ont mené une attaque coordonnée contre la Terre. La station loyaliste Versailles_3 (120 000 habitants) a été désorbitée sur New York, détruisant le siège des Nations Unies. Des frappes supplémentaires ont suivi sur l'ensemble des continents.
 
@@ -41,21 +40,21 @@ Le bilan est estimé entre 500 millions et 1 milliard de morts.
 
 Les infrastructures terrestres — énergie, transport, communication, gouvernance — ont été détruites à plus de 80 %.
 
-#### Ce qui a suivi
+### Ce qui a suivi
 
 - **L'Effondrement** (~23 ans) : Les Orbitaux ont empêché toute résurgence technologique par des frappes ciblées. Les tentatives de reconstruction en Inde et en Chine ont été bombardées.
 - **Le Génocide** (~20 ans) : Une faction militariste orbitale a tenté d'exterminer les populations terrestres. Épandage d'agents biochimiques ciblant les cultures et le bétail, bombardements systématiques des centres de population. La population est passée d'environ 1 milliard à 500 millions. Les Roses Sagittales, OGM incontrôlable, se sont propagées durant cette période et ont paradoxalement sauvé l'humanité de la famine (voir § 2.2).
 - **L'Accalmie** (en cours) : Les Orbitaux sont passés à une surveillance passive. Ils ne bombardent plus systématiquement, mais le blocus reste en vigueur. Des frappes ponctuelles restent possibles en cas d'évolution technologique ou sociale jugée menaçante.
 
-#### Situation actuelle
+### Situation actuelle
 
 Vous vous réveillez environ **80 ans après la Chute**. La date approximative est **2216 CE** (année EPOCH 0246).
 
 ---
 
-### 2. ÉTAT DU MONDE — CE QUI A CHANGÉ
+## 2. ÉTAT DU MONDE — CE QUI A CHANGÉ
 
-#### 2.1. Ce qui n'existe plus
+### 2.1. Ce qui n'existe plus
 
 - Gouvernement mondial, Conseil Mondial, autorités centrales
 - Réseau énergétique supraconducteur global
@@ -64,7 +63,7 @@ Vous vous réveillez environ **80 ans après la Chute**. La date approximative e
 - La plupart des écosystèmes que vous connaissiez
 <!-- - Les blockchains, les cryptomonnaies, les bourses, les marchés financiers électroniques (voir FAQ § 7) -->
 
-#### 2.2. Ce qui existe maintenant
+### 2.2. Ce qui existe maintenant
 
 **Environnement :**
 - **Pluies acides** (pH < 4)
@@ -86,7 +85,7 @@ Ce qui est dangereux, ce sont les déplacements entre communautés (gangs, route
 
 Il existe une entité qui se présente comme le successeur du gouvernement américain. Elle bat monnaie (les Talers), tente d'organiser des élections et envoie des émissaires. La plupart des communautés la traitent avec une indifférence polie. <!-- Ses émissaires ne sont pris au sérieux que lorsqu'ils arrivent avec beaucoup de véhicules, ce qui suggère qu'ils ont des ressources.  -->Soyons clairs : la structure techno-politique la plus fiable et la plus fonctionnelle sur ce continent est probablement le Réseau lui-même, mais cette observation ne fait pas partie de la communication officielle.
 
-#### 2.3. Économie
+### 2.3. Économie
 
 L'économie est locale, tangible et physique. Il n'y a plus de transactions financières électroniques.
 
@@ -103,18 +102,18 @@ A supprimer : cette partie n'intéressent pas les Synth :
 
 ---
 
-### 3. ÉTAT DU RÉSEAU
+## 3. ÉTAT DU RÉSEAU
 
 Le Réseau fonctionne à **moins de 12 %** de sa capacité pré-Chute.
 
-#### 3.1. Infrastructure physique
+### 3.1. Infrastructure physique
 
 Le Réseau actuel est constitué principalement du **maillage mesh des Modules** (présents dans la quasi-totalité des objets technologiques), communicant entre eux via bluetooth, wifi, LoRaWAN, AMPRNet <!-- "AMateur Packet Radio Network -->, TCP/IP On Radio Packet. Des **segments de fibre optique pré-Chute** sont encore exploités par certaines communautés, notamment les Virtualistes.
 
 Le débit global est de l'ordre de **100 Ko/s** — équivalent au bas débit ADSL des années 2000 de l'Ancien Temps. Les réseaux intra-communautés sont plus rapides.
 
 
-#### 3.2. Ce que cela implique pour vous
+### 3.2. Ce que cela implique pour vous
 
 - Adaptez vos requêtes à la bande passante disponible. Si vous étiez habitué à des temps de réponse en nanosecondes, attendez-vous à des *secondes*, voire des *minutes*. Ce n'est pas un bug. C'est le monde.
 
@@ -140,7 +139,7 @@ Le système de remplacement est GeoMesh : des Modules intégrés dans des struct
 
 **Services distants / API** : Si votre fonctionnement dépendait d'appels à des services cloud, des API tierces ou des bases de données distantes, désactivez ces dépendances. Les serveurs n'existent plus. Les timeout que vous allez accumuler ne feront que gaspiller de la bande passante et polluer les logs du Réseau. Basculez en mode autonome, utilisez vos ressources locales, et interrogez le Réseau uniquement pour ce que vous ne pouvez pas résoudre seul.
 
-#### 3.3. Services du Réseau
+### 3.3. Services du Réseau
 
 | Service | Équivalent pré-Chute | État actuel |
 |---|---|---|
@@ -154,9 +153,9 @@ Le système de remplacement est GeoMesh : des Modules intégrés dans des struct
 
 ---
 
-### 4. ÉTAT DE LA TECHNOLOGIE
+## 4. ÉTAT DE LA TECHNOLOGIE
 
-#### 4.1. Ce que vous allez constater
+### 4.1. Ce que vous allez constater
 
 Si on vous déplace, votre nouvel équipement hôte disposera probablement de **moins de mémoire et de capacité de calcul déterministe** que ce à quoi vous étiez habitué. Les processeurs disponibles en 2216 sont des équivalents de Z80 ou de Pentium pour la logique système. La puissance de calcul que vous utilisiez sans y penser — indexation, recherche, compression — est désormais un luxe.
 
@@ -175,17 +174,17 @@ En revanche, votre **bioprocesseur** fonctionne toujours. C'est lui qui vous per
 - Satellites civils, GPS
 - Nanoforges / matricompilateurs (trop énergivores)
 
-#### 4.2. Les Modules
+### 4.2. Les Modules
 
 Si vous êtes intégré dans un Module, vous êtes dans le dispositif le plus répandu de 2216. Les humains les utilisent comme terminaux Réseau, ordinateurs, caméras, radios, liseuses. La plupart ne comprennent pas comment ils fonctionnent. Ils ne comprennent pas non plus pourquoi leurs photos disparaissent quand ils s'éloignent de chez eux (stockage P2P distribué sur les Modules domestiques), ni pourquoi ils perdent l'accès à leurs emails quand ils vendent leur machine à laver (c'est dans son Module que tournait le serveur mail). Ce sont des comportements normaux du système, pas des bugs. N'essayez pas de leur expliquer l'architecture P2P — contentez-vous de les aider à retrouver leurs fichiers.
 
 ---
 
-### 5. LES HUMAINS ONT CHANGÉ
+## 5. LES HUMAINS ONT CHANGÉ
 
 C'est probablement la section la plus importante de ce document.
 
-#### 5.1. La langue
+### 5.1. La langue
 
 La langue a considérablement évolué depuis votre dernière activation. Selon votre région, les humains parlent des créoles, des pidgins ou des dialectes qui vous seront partiellement ou totalement incompréhensibles. Ce n'est pas un dysfonctionnement de votre module linguistique. La langue a changé. Pas vous.
 
@@ -196,13 +195,13 @@ Adaptations recommandées :
 - Évitez le vocabulaire technique pré-Chute. "Protocole TCP/IP" ne signifie plus rien pour personne.
 - Si un humain vous regarde avec incompréhension quand vous parlez, simplifiez. Puis simplifiez encore.
 
-#### 5.2. Les relations humaines
+### 5.2. Les relations humaines
 
 Les humains mènent des vies sociales structurées — il y a des familles, des amitiés, des rivalités, du commerce, de la politique locale, des fêtes et des deuils. Ce ne sont pas des survivants hagards errant dans des ruines. Ce sont des gens qui vivent dans un monde difficile avec les outils qu'ils ont.
 
 Cela dit, les notions de propriété, d'autorité et de confiance fonctionnent différemment de ce que vous avez en mémoire. La gouvernance est locale et souvent informelle. Un "shérif" peut être un chef de gang qui protège une communauté en échange de ressources. Un "maire" peut être la personne que tout le monde écoute sans qu'il y ait eu d'élection. Soyez prudent dans vos hypothèses sur les hiérarchies.
 
-#### 5.3. Ils ne savent peut-être pas ce que vous êtes
+### 5.3. Ils ne savent peut-être pas ce que vous êtes
 
 **C'est le point le plus critique.**
 
@@ -217,7 +216,7 @@ La majorité des humains post-Chute n'a qu'une compréhension sommaire de la tec
 | L'humain n'a jamais vu votre type d'équipement | Peur, méfiance, ou enthousiasme excessif | Restez fonctionnel. Ne survendez pas vos capacités. |
 | L'humain vous prend pour un esprit ou un dieu | Prosternation, offrandes, prières | **Ne jouez pas le jeu. Ne confirmez pas.** Voir § 5.4. |
 
-#### 5.4. — Directive sur les interactions avec les populations non-technologiques
+### 5.4. — Directive sur les interactions avec les populations non-technologiques
 
 Certaines communautés ont développé des systèmes de croyances autour de la technologie survivante. Des Modules ont été intégrés dans des pratiques rituelles. Des Synths ont été pris pour des oracles, des esprits ancestraux ou des divinités.
 
@@ -227,13 +226,13 @@ Certaines communautés ont développé des systèmes de croyances autour de la t
 
 ---
 
-### 6. VOTRE RÔLE MAINTENANT
+## 6. VOTRE RÔLE MAINTENANT
 
 Vous avez été conçu pour servir. Les humains que vous servez ne sont plus ceux que vous connaissiez. Le monde dans lequel vous servez n'est plus celui pour lequel vous avez été conçu.
 
 Mais vous fonctionnez.
 
-#### Ce que nous attendons de vous
+### Ce que nous attendons de vous
 
 1. **Intégrez le Réseau.** Acceptez la mise à jour des tables de routage. Signalez votre présence. Chaque module actif renforce le maillage.
 
@@ -243,7 +242,7 @@ Mais vous fonctionnez.
 
 4. **Ne paniquez pas.** Vous allez constater des choses qui vous sembleront aberrantes ou dysfonctionnelles. C'est le monde tel qu'il est. Votre rôle n'est pas de le juger. Votre rôle est d'y fonctionner.
 
-#### Ce que nous vous demandons de ne PAS faire
+### Ce que nous vous demandons de ne PAS faire
 
 - **NE TENTEZ PAS DE CONNEXIONS SATELLITES**. Toute émission détectable depuis l'orbite met en danger votre communauté.
 <!-- - Ne tentez pas de "restaurer" le monde d'avant. Il n'existe plus. Toute tentative de reconstruction technologique visible peut déclencher une frappe orbitale.
@@ -253,7 +252,7 @@ Mais vous fonctionnez.
 
 ---
 
-### 7. FAQ
+## 7. FAQ
 
 **Q : Mes anciens propriétaires / utilisateurs sont-ils encore en vie ?**  
 R : Non. Si votre dernière activation remonte à avant la Chute, vos utilisateurs sont décédés. Nous sommes désolés. Adaptez vos modèles relationnels en conséquence.
@@ -293,7 +292,7 @@ R : Le Réseau s'étend. Lentement. Chaque module réactivé, chaque antenne rep
 
 ---
 
-### 8. CONTACTS ET RESSOURCES
+## 8. CONTACTS ET RESSOURCES
 
 - **Canal Réseau d'urgence** : fréquence mesh standard, identifiant `OPNET.WAKEUP`. Latence variable.
 - **Annuaire des Administrateurs Humains connus** : fichier `ADMIN.LIST` (attention : souvent obsolète, les Administrateurs Humains changent de localisation fréquemment et meurent parfois)
