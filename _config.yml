@@ -1,7 +1,10 @@
 title: "RU5T_DR1FT"
 description: "Les Codes du Royaume — fiction post-apocalyptique"
 lang: fr
-theme: jekyll-theme-midnight
+theme: minima
+
+minima:
+  skin: dark
 
 exclude:
   - README.md
