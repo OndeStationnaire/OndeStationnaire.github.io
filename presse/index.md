@@ -5,7 +5,9 @@ slides:
   - src: /assets/img/pitch-01.jpg
     alt: "RU5T_DRIFT — couverture"
   - src: /assets/img/pitch-02.jpg
-    alt: "RU5T_DRIFT — Gordon sur la Route Côtière"
+    alt: "RU5T_DRIFT — Gordon sur la Route"
+  - src: /assets/img/pitch-03.jpg
+    alt: "RU5T_DRIFT — "
 ---
 
 <header class="press-header" id="pitch">
@@ -28,8 +30,8 @@ Quand il s'installe dans la communauté de la Côte, il n'a qu'une intention : r
 
 <div class="two-col" id="univers">
 <div>
-  <img class="press-image" src="/assets/img/pitch-02.jpg" alt="Gordon sur la Route Côtière">
-  <p class="press-image-caption">// Gordon sur la Route Côtière — Midjourney 2026</p>
+  <img class="press-image" src="/assets/img/pitch-02.jpg" alt="Gordon sur la Route">
+  <p class="press-image-caption">// Gordon sur la Route — Midjourney 2025</p>
 </div>
 <div>
 <section class="press-section">
