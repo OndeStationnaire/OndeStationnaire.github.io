@@ -5,13 +5,14 @@ title: The Virtualist Manifesto
 
 <!-- (Manifeste rédigé après la Chute, largement accepté par la plupart des Virtualistes dans leurs hangars). -->
 
-![Simulacra](/assets/img/Simulacra01.jpg){: style="max-width: 50%; height: auto;"}
+![Simulacra](/assets/img/Simulacra01.jpg){: style="max-width: 75%; height: auto;"}
 
-## TABLE OF CONTENT
+---
+
 * TOC
 {:toc}
 
-
+---
 ## THE VIRTUALIST MANIFESTO
 
 
