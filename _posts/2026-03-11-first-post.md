@@ -4,7 +4,7 @@ date: 2026-03-11
 title: "First post"
 ---
 
-![description](/assets/img/blog/2026-03-11-illustration.jpg.jpg){: style="max-width: 75%; height: auto;"}
+![Midjourney-2025](/assets/img/blog/2026-03-11-illustration.jpg.jpg){: style="max-width: 75%; height: auto;"}
 
 J'avais ce dépôt github depuis plus de dix ans mais je ne m'en suis jamais vraiment servi.
 

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Accueil
 ---
 
@@ -9,7 +9,7 @@ title: Accueil
 
 *Fiction post-apocalyptique — 2026*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit mattis nisi, vitae porttitor diam commodo id. Fusce condimentum libero sapien, tempor semper lorem efficitur ac. Nullam egestas feugiat turpis, id feugiat dolor luctus in. Donec placerat dictum purus sed semper. Ut quis massa at ante fermentum euismod. Mauris porta. 
+Lorem ipsum dolor sit amet parce que je ne sais pas encore quoi mettre ici en introduction, consectetur adipiscing elit. Quisque blandit mattis nisi, vitae porttitor diam commodo id. Fusce condimentum libero sapien, tempor semper lorem efficitur ac. Nullam egestas feugiat turpis, id feugiat dolor luctus in. Donec placerat dictum purus sed semper. Ut quis massa at ante fermentum euismod. Mauris porta. 
 
 [**Monde**](/monde)
 
@@ -17,10 +17,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit mattis 
 
 [**Dossier de presse**](/presse)
 
+[**Blog / Carnet de bord**](/blog)
 
+[**FAQ**](/faq)
+
+
+---
 
 ## Contact
 
+Bluesky : [@aethervr.bsky.social](https://bsky.app/profile/aethervr.bsky.social)
+
 GitHub : [github.com/OndeStationnaire](https://github.com/OndeStationnaire)
 
-Bluesky : [@aethervr.bsky.social](https://bsky.app/profile/aethervr.bsky.social)
+---

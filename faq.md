@@ -3,7 +3,6 @@ layout: page
 title: FAQ
 ---
 
-## Sommaire
 * TOC
 {:toc}
 
@@ -17,7 +16,7 @@ Ce site existe pour donner une existence publique à un projet qui en méritait 
 
 Ce qui ne devait être qu'un exercice graphique est devenu une réécriture complète.
 
-Ce site remplace une publication sur une plateforme sociale — j'ai voulu garder le contrôle sur la diffusion, et héberger à la fois les textes du roman et les *assets* visuels créés pour le monde VRChat associé au projet.
+Ce site remplace une publication sur une plateforme sociale : j'ai voulu garder le contrôle sur la diffusion, et héberger à la fois les textes du roman et les *assets* visuels créés pour le monde VRChat associé au projet.
 
 ---
 
@@ -89,3 +88,5 @@ Pour plusieurs raisons :
 Le roman compte 20 épisodes prévus d'environ 8 000 à 10 000 mots chacun. Les premiers épisodes sont substantiellement rédigés, les suivants existent à l'état de synopsis détaillés. La section **Épisodes** reflète l'état actuel de la publication.
 
 Une préquelle au roman existe, mais elle peut plutôt être considérée comme un document de travail, et n'est pour le moment pas destiné à être publié.
+
+*Utilisation de l'IA pour cette entrée : 60% - choix des questions à l'initiative de Claude basé sur l'historique et les notes d'intention du projet*

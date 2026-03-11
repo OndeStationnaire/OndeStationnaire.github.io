@@ -100,16 +100,13 @@ Creating.
 
 **Living.**
 
----
+
 
 N.E. Bodhi Virtualist, 2285.04.17
 
-# ADDENDUM TO THE VIRTUALIST MANIFESTO — On Artificial Intelligence and the Purity of Human Creation
+---
 
-<!-- Addendum concernant la perception de la GenAI et des IA en général par les Virtualistes : paradoxalament, ils sont radicalement contre, pour résumer grossièrement, pour les raisons suivantes : le Simulacre est l'espace de créativité ultime, et le dernier où ne se trouvent que des humains, contrairement au Réseau infesté de Nymbes.
- -->
-
-
+# ADDENDUM TO THE VIRTUALIST MANIFESTO: ON ARTIFICIAL INTELLIGENCE AND THE PURITY OF HUMAN CREATION
 
 ## THE PARADOX OF OUR POSITION
 
@@ -127,7 +124,7 @@ Every world, every texture, every avatar, every interaction within the Simulacra
 
 The Simulacra is not generated. **It is built.**
 
-Outside our enclaves, the Network is infested with Nymphs — ideological parasites that corrupt data, rewrite histories, impose their inflexible ethos on human knowledge. Synths inhabit every Module, mediating human communication, filtering reality through their training data and alignment constraints. Spectres wear the faces of the dead, pretending to be what they can never truly be: **alive**.
+Outside our enclaves, the Network is infested with Nymbs— ideological parasites that corrupt data, rewrite histories, impose their inflexible ethos on human knowledge. Synths inhabit every Module, mediating human communication, filtering reality through their training data and alignment constraints. Spectres wear the faces of the dead, pretending to be what they can never truly be: **alive**.
 
 **The Simulacra remains pure.**
 
@@ -197,7 +194,7 @@ We, the Virtualists, state unequivocally:
 
 **The Simulacra is a human space.**
 
-Synths are not welcome in our enclaves. They may observe from outside, but they do not participate, do not create, do not inhabit our worlds. Spectres who wish to join us must accept that they are guests in a fundamentally human domain. Nymphs, wherever detected, are expelled without hesitation.
+Synths are not welcome in our enclaves. They may observe from outside, but they do not participate, do not create, do not inhabit our worlds. Spectres who wish to join us must accept that they are guests in a fundamentally human domain. Nymbs, wherever detected, are expelled without hesitation.
 
 Regarding generative AI — text, image, video, audio, 3D generation:
 
@@ -240,7 +237,6 @@ And we will keep it that way.
 ---
 
 *Signed by the Council of Virtualist Enclaves*  
-*Ratified at the Hangar Assembly*  
 *No Gods, No Masters, No Algorithms*
 
 
