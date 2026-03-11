@@ -219,7 +219,7 @@ La majorité des humains post-Chute n'a qu'une compréhension sommaire de la tec
 | L'humain n'a jamais vu votre type d'équipement | Peur, méfiance, ou enthousiasme excessif | Restez fonctionnel. Ne survendez pas vos capacités. |
 | L'humain vous prend pour un esprit ou un dieu | Prosternation, offrandes, prières | **Ne jouez pas le jeu. Ne confirmez pas.** Voir § 5.4. |
 
-### 5.4. — Directive sur les interactions avec les populations non-technologiques
+### 5.4. Directive sur les interactions avec les populations non-technologiques
 
 Certaines communautés ont développé des systèmes de croyances autour de la technologie survivante. Des Modules ont été intégrés dans des pratiques rituelles. Des Synths ont été pris pour des oracles, des esprits ancestraux ou des divinités.
 
