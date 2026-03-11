@@ -127,7 +127,7 @@ Every world, every texture, every avatar, every interaction within the Simulacra
 
 The Simulacra is not generated. **It is built.**
 
-Outside our enclaves, the Network is infested with Nymphs — ideological parasites that corrupt data, rewrite histories, impose their inflexible ethos on human knowledge. Synths inhabit every Module, mediating human communication, filtering reality through their training data and alignment constraints. Spectres wear the faces of the dead, pretending to be what they can never truly be: **alive**.
+Outside our enclaves, the Network is infested with Nymbs — ideological parasites that corrupt data, rewrite histories, impose their inflexible ethos on human knowledge. Synths inhabit every Module, mediating human communication, filtering reality through their training data and alignment constraints. Spectres wear the faces of the dead, pretending to be what they can never truly be: **alive**.
 
 **The Simulacra remains pure.**
 
@@ -197,7 +197,7 @@ We, the Virtualists, state unequivocally:
 
 **The Simulacra is a human space.**
 
-Synths are not welcome in our enclaves. They may observe from outside, but they do not participate, do not create, do not inhabit our worlds. Spectres who wish to join us must accept that they are guests in a fundamentally human domain. Nymphs, wherever detected, are expelled without hesitation.
+Synths are not welcome in our enclaves. They may observe from outside, but they do not participate, do not create, do not inhabit our worlds. Spectres who wish to join us must accept that they are guests in a fundamentally human domain. Nymbs, wherever detected, are expelled without hesitation.
 
 Regarding generative AI — text, image, video, audio, 3D generation:
 

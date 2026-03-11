@@ -38,14 +38,14 @@ son **couteau-papillon en hyperdiamant**...
 
 ## Univers
 
-```
-[CTX]
-[WAR]: {blocus orbital comm/frappe orbital si évolution tech/sociale dangereuse}
-[ENV]: {O₃ disparu/pluies pH<4/Rosa Sagittalis(OGM hallucinogène/toxique)67%continents/ZIH(Zones Inhabilité Humaine)40%continents/cités:cleptocratie|anarchisme|néo-féodalisme}
-[SOC/ECO]: {gouvernance absente/fragmentation tribale/phalanstères/citadelles militaires/cargo cult/troc/élevage varans+blattes lait/accès mémoires vies antérieures généralisé}
-[TECH]: {nanotech vestiges rares/Réseau<12%pré-Chute fragmenté/IA instables/Spectres(fantômes numériques pilotant vivants)/Rémémorateurs(machines vies antérieures)/biotech:nécroprocesseurs cultivés/Fabriques Universelles portables répandues/énergie:photoconvertisseurs+diesel archaïque}
-[MIL]: {coilgun HEADSHOT+(copie artisanale)/lames hyper-diamant/exosuits PETIT SOLDAT™ design pré-Chute/armure GOL1ATH(rare)/nanites restauratrices GODMODE™(nanites rouges/rares)}
-```
+>
+>[CTX]
+>[WAR]: {blocus orbital comm/frappe orbital si évolution tech/sociale dangereuse}
+>[ENV]: {O₃ disparu/pluies pH<4/Rosa Sagittalis(OGM hallucinogène/toxique)67%continents/ZIH(Zones Inhabilité Humaine)40%continents/cités:cleptocratie|anarchisme|néo-féodalisme}
+>[SOC/ECO]: {gouvernance absente/fragmentation tribale/phalanstères/citadelles militaires/cargo cult/troc/élevage varans+blattes lait/accès mémoires vies antérieures généralisé}
+>[TECH]: {nanotech vestiges rares/Réseau<12%pré-Chute fragmenté/IA instables/Spectres(fantômes numériques pilotant vivants)/Rémémorateurs(machines vies antérieures)/biotech:nécroprocesseurs cultivés/Fabriques Universelles portables répandues/énergie:photoconvertisseurs+diesel archaïque}
+>[MIL]: {coilgun HEADSHOT+(copie artisanale)/lames hyper-diamant/exosuits PETIT SOLDAT™ design pré-Chute/armure GOL1ATH(rare)/nanites restauratrices GODMODE™(nanites rouges/rares)}
+>
 
 <!-- Le monde de *RU5T\_DRIFT* est un cyberpunk en ruine : la technologie existe mais s'érode, et les **Roses Sagittales** — plantes mutantes hallucinogènes — recouvrent deux tiers des continents.
 

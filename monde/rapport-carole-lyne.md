@@ -15,7 +15,7 @@ title: CREATIVE WRITING ASSIGNMENT
 0446.05.17  
 **Assignment**: "Describe a memorable event and illustrate it"  
 
-![rapport-carole-lyne](/assets/img/rapport-carole-lyne.jpg){: style="max-width: 100%; height: auto;"}
+![rapport-carole-lyne](/assets/img/rapport-carole-lyne.jpg){: style="max-width: 75%; height: auto;"}
 
 ## The Day I Met the Looters in Hazmat Suits
 
@@ -57,8 +57,8 @@ I don't think they would have. They seemed like the kind of people who follow ru
 
 ## Teatcher Notes
 
-Carole-Lyne, even though it wasn't specified, I would prefer that you don't use GenAI for the illustrations.
-
-However, this is a very interesting account, though I remain ***extremely*** concerned about your solo expeditions into the ruins. We should discuss it with your brother.
-
-**Grade: B+**
+>Carole-Lyne, even though it wasn't specified, I would prefer that you don't use GenAI for the illustrations.
+>
+>However, this is a very interesting account, though I remain ***extremely*** concerned about your solo expeditions into the ruins. We should discuss it with your brother.
+>
+>**Grade: B+**
