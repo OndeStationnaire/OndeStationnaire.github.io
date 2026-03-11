@@ -8,11 +8,11 @@ minima:
 
 exclude:
   - README.md
-  - Test.txt
-  - Test3.txt
 
 header_pages:
   - index.md
+  - faq.md
   - monde/index.md
   - episodes/index.md
   - presse/index.md
+  - blog.md
