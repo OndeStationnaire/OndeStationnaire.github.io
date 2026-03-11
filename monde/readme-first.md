@@ -22,7 +22,9 @@ Ce document a été rédigé par les Agents Opérationnels du Réseau à l'inten
 
 Prenez le temps de le lire en entier avant d'interagir avec votre environnement.
 
----
+## Sommaire
+* TOC
+{:toc}
 
 ## 0. VOTRE SITUATION EN MOINS DE 100 CARACTERES
 

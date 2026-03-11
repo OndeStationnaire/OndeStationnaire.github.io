@@ -7,6 +7,11 @@ title: The Virtualist Manifesto
 
 ![Simulacra](/assets/img/Simulacra01.jpg){: style="max-width: 50%; height: auto;"}
 
+## TABLE OF CONTENT
+* TOC
+{:toc}
+
+
 ## THE VIRTUALIST MANIFESTO
 
 

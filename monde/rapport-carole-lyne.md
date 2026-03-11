@@ -3,6 +3,9 @@ layout: page
 title: CREATIVE WRITING ASSIGNMENT
 ---
 
+## Table of content
+* TOC
+{:toc}
 
 **Student**: Carole-Lyne Ka  
 **Grade**: 5th Grade  
