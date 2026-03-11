@@ -4,6 +4,8 @@ date: 2026-03-11
 title: "First post"
 ---
 
+![description](/assets/img/blog/2026-03-11-illustration.jpg.jpg){: style="max-width: 75%; height: auto;"}
+
 J'avais ce dépôt github depuis plus de dix ans mais je ne m'en suis jamais vraiment servi.
 
 J'avais longtemps pensé qu'il me serait possible de publier mes écrits de fictions sur des plateformes tels que Wattpad, et d'en faire la promotion sur les réseaux sociaux comme Twitter.
