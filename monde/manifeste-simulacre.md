@@ -104,13 +104,14 @@ Creating.
 
 N.E. Bodhi Virtualist, 2285.04.17
 
-# ADDENDUM TO THE VIRTUALIST MANIFESTO
+# ADDENDUM TO THE VIRTUALIST MANIFESTO — On Artificial Intelligence and the Purity of Human Creation
 
-Addendum concernant la perception de la GenAI et des IA en général par les Virtualistes : paradoxalament, ils sont radicalement contre, pour résumer grossièrement, pour les raisons suivantes : le Simulacre est l'espace de créativité ultime, et le dernier où ne se trouvent que des humains, contrairement au Réseau infesté de Nymbes.
+<!-- Addendum concernant la perception de la GenAI et des IA en général par les Virtualistes : paradoxalament, ils sont radicalement contre, pour résumer grossièrement, pour les raisons suivantes : le Simulacre est l'espace de créativité ultime, et le dernier où ne se trouvent que des humains, contrairement au Réseau infesté de Nymbes.
+ -->
 
-## On Artificial Intelligence and the Purity of Human Creation
 
-### THE PARADOX OF OUR POSITION
+
+## THE PARADOX OF OUR POSITION
 
 Some will find it contradictory that we, who live most of our lives within digital space, who reject the tyranny of biological determinism, who celebrate the transcendence of physical limitations — that *we* should be hostile to artificial intelligence.
 
@@ -118,7 +119,7 @@ This requires clarification.
 
 ---
 
-### I. THE SIMULACRA IS HUMAN
+## I. THE SIMULACRA IS HUMAN
 
 The Simulacra is not an escape from humanity. **It is humanity's purest expression.**
 
@@ -136,7 +137,7 @@ Every voxel is placed by human hands. Every interaction is between human minds.
 
 ---
 
-### II. WHY WE REJECT GENERATIVE AI
+## II. WHY WE REJECT GENERATIVE AI
 
 The temptation is obvious. Why spend weeks modeling an avatar when a GenAI could create one in seconds? Why manually construct a world when text-to-3D systems could generate infinite variations?
 
@@ -154,7 +155,7 @@ We did not escape the tyranny of the flesh only to submit to the tyranny of the 
 
 ---
 
-### III. THE DEATH OF MEANING
+## III. THE DEATH OF MEANING
 
 There is a deeper problem.
 
@@ -170,7 +171,7 @@ You would be alone in a room full of ghosts.
 
 ---
 
-### IV. THE CRAFT MATTERS
+## IV. THE CRAFT MATTERS
 
 We are often called escapists, accused of fleeing reality into digital fantasy.
 
@@ -190,7 +191,7 @@ This is not escapism. **This is the preservation of human agency in an age of al
 
 ---
 
-### V. OUR DECLARATION ON AI
+## V. OUR DECLARATION ON AI
 
 We, the Virtualists, state unequivocally:
 
