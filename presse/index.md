@@ -29,7 +29,7 @@ Un **adolescent vagabond**.
 
 Il cherche son âme-sœur et survit grâce à deux armes :
 
-son **couteau-papillon en hyperdiamant**...
+... son **couteau-papillon en hyperdiamant**...
 
 ... et sa maîtrise de la **sociologie critique**.
 
@@ -86,4 +86,8 @@ En arrière-plan : les artefacts de la **Civilisation X**, dont personne ne comp
 
 ## Contact
 
+Bluesky : [@aethervr.bsky.social](https://bsky.app/profile/aethervr.bsky.social)
+
 GitHub : [github.com/OndeStationnaire](https://github.com/OndeStationnaire)
+
+---

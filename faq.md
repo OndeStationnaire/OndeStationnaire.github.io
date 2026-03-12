@@ -89,4 +89,6 @@ Le roman compte 20 épisodes prévus d'environ 8 000 à 10 000 mots chacun. Les 
 
 Une préquelle au roman existe, mais elle peut plutôt être considérée comme un document de travail, et n'est pour le moment pas destiné à être publié.
 
+---
+
 *Utilisation de l'IA pour cette entrée : 60% - choix des questions à l'initiative de Claude basé sur l'historique et les notes d'intention du projet*
