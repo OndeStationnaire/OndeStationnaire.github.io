@@ -1,0 +1,35 @@
+---
+layout: post
+date: 2026-04-11
+title: "VRChat-World => Point & Click Myst-Like"
+---
+
+![VRChat-2026](/assets/img/blog/2026-04-17-illustration.jpg){: style="max-width: 75%; height: auto;"}
+
+Publication d'une version point & click Myst-like de la map VRChat inspirée de la partie se passant sur la Côte toxique.
+
+L'idée était d'utiliser tout le travail accompli dans la map VRChat de la Côte en l'intégrant ici, ce qui me permettrait d'avoir une plus large audience : VRChat est une plate-forme de niche, peu de gens ont des casques VR et le PC capable de faire tourner cette plateforme sociale, alors que tout le monde a un navigateur Web. Le but était de capitaliser rapidement et facilement sur ce que j'avais déjà produit : des décors, quelques quêtes, et beaucoup de textes.
+
+Mais je ne m'y connais absolument pas en développement web.
+
+Alors j'ai tenté d'utiliser des LLM locaux (qwen3.5-35b-a3b, puis gemma-4-26b-a4b) pour le développer en javascript. Le résultat était bancal et buggé. Alors, j'ai soumis le projet à Claude Opus 4.6, qui m'en a produit une version fonctionnelle et évolutive, ainsi qu'un outil pour faciliter la prise en compte des zones d'interarct.
+
+Le résultat est ici : [**Jouer — Mystery of the Coast (WIP)**](/game/)
+
+
+
+<!-- Note pour le push :
+OndeStationnaire.github.io\assets\img\blog
+https://squoosh.app/
+
+cmd <racine>
+
+git add .
+
+git commit -m "
+
+git push
+
+view :
+https://OndeStationnaire.github.io
+ -->

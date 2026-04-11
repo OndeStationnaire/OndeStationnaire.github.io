@@ -28,6 +28,8 @@ Il m'a fallut à peu près une journée de travail pour mettre en place le squel
 
 ### 2026.04.11.Sam.
 
+#### VRChat-World => Point & Click Myst-Like
+
 ![VRChat-2026](/assets/img/blog/2026-04-17-illustration.jpg){: style="max-width: 75%; height: auto;"}
 
 Publication d'une version point & click Myst-like de la map VRChat inspirée de la partie se passant sur la Côte toxique.
@@ -54,4 +56,6 @@ git commit -m "
 
 git push
 
+view :
+https://OndeStationnaire.github.io
  -->
