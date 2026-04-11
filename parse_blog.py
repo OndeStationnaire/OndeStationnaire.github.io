@@ -102,9 +102,6 @@ def parse_blog(source_path: str):
         if not date_iso:
             continue
 
-        date_iso, _ = result
-        body_raw = "\n".join(lines[1:]).strip()
-
         if not body_raw:
             continue
 
