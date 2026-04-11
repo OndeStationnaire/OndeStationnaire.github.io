@@ -27,6 +27,7 @@ Il m'a fallut à peu près une journée de travail pour mettre en place le squel
 - Communiquer plus sur mon utilisation de l'intelligence artificielle — ce que je fais avec le même enthousiasme qu'en 1998 j'avais mis en place un site internet sur AOL pour diffuser en shareware la première version du roman de science-fiction dont je parle ici, malgré le scepticisme de mon entourage.
 
 ### 2026.03.15.Sam.
+
 #### IA : On sent un truc
 
 Jeudi dernier, pot de départ de d'un collège. Nous avons finis dans un bar.
