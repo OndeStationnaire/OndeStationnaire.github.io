@@ -26,7 +26,7 @@ Il m'a fallut à peu près une journée de travail pour mettre en place le squel
 
 - Communiquer plus sur mon utilisation de l'intelligence artificielle — ce que je fais avec le même enthousiasme qu'en 1998 j'avais mis en place un site internet sur AOL pour diffuser en shareware la première version du roman de science-fiction dont je parle ici, malgré le scepticisme de mon entourage.
 
-### 2026.03.15.
+### 2026.03.15.Sam.
 #### IA : On sent un truc
 
 Jeudi dernier, pot de départ de d'un collège. Nous avons finis dans un bar.
@@ -83,7 +83,7 @@ Ce genre de question "transversales" aurait donné des réponses médiocres si j
 Ces expériences m'incitent à penser que dans le cas de document moyennement bordelique  (même je fais quand même beaucoup d'effort pour la structure) comme la bible du roman, les RAG actuel, c'est à chier. A la limite un LLM secondaire avec grosse fenêtre contextuelle dans lequel on aurait chargé tout les gros documents et qu'interrogerait le LLM principal serait beaucoup plus efficace. Il semblerait que des architectures de ce type existent, mais sont assez gourmande en performance et donc peu rentable dans la plupart des cas.
 
 
-### 2026.04.04.
+### 2026.04.04.Sam.
 
 #### Assistant LLM et Keep4o
 
@@ -94,7 +94,7 @@ Pendant ce temps sur Twitter que je ne fais que stalker, mon intérêt pour #Kee
 J'ai testé `Gemma 4-gemma-4-26b-a4b`. Lourd, mais adopté. Seule faiblesse dont je viens de m'apercevoir : il a beaucoup de mal lorsque je lui injecte la totalité de la bible de STBYHC dans son contexte, là il tourne depuis au moins une heure et demi — "Processing Prompt" à 83% — alors que c'était beaucoup plus rapide avec Qwen - finalement il s'est crashé à 93%.
 
 
-### 2026.04.06.Lun
+### 2026.04.06.Lun.
 
 #### Assistant LLM et déception
 
