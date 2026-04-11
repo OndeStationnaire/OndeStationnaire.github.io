@@ -136,7 +136,7 @@ L'idée était d'utiliser tout le travail accompli dans la map VRChat de la Côt
 
 Mais je ne m'y connais absolument pas en développement web.
 
-Alors j'ai tenté d'utiliser des LLM locaux (``qwen3.5-35b-a3b`, puis `gemma-4-26b-a4b`) pour le développer en javascript. Le résultat était bancal et buggé. Alors, j'ai soumis le projet à Claude Opus 4.6, qui m'en a produit une version fonctionnelle et évolutive, ainsi qu'un outil pour faciliter la prise en compte des zones d'interarct.
+Alors j'ai tenté d'utiliser des LLM locaux (`qwen3.5-35b-a3b`, puis `gemma-4-26b-a4b`) pour le développer en javascript. Le résultat était bancal et buggé. Alors, j'ai soumis le projet à Claude Opus 4.6, qui m'en a produit une version fonctionnelle et évolutive, ainsi qu'un outil pour faciliter la prise en compte des zones d'interarct.
 
 Le résultat est ici : [**Jouer — Mystery of the Coast (WIP)**](/game/)
 

@@ -15,6 +15,8 @@ Format source attendu :
 import re
 import os
 from pathlib import Path
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
