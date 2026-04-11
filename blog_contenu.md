@@ -1,4 +1,4 @@
-### 2026.03.11.Mar.
+### 2026.03.11.
 
 #### First post
 
@@ -26,7 +26,7 @@ Il m'a fallut à peu près une journée de travail pour mettre en place le squel
 
 - Communiquer plus sur mon utilisation de l'intelligence artificielle — ce que je fais avec le même enthousiasme qu'en 1998 j'avais mis en place un site internet sur AOL pour diffuser en shareware la première version du roman de science-fiction dont je parle ici, malgré le scepticisme de mon entourage.
 
-### 2026.03.15.Sam.
+### 2026.03.15.
 
 #### IA : On sent un truc
 
@@ -44,10 +44,12 @@ Est-ce que ça arrivera aussi ? Cela fait des années que les gens qui ont perdu
 
 S'il y a un éclatement, je pense que ce serait surtout celui de chatGPT, non de l'IA elle-même. Et il ne faut pas oublier que l'éclatement de la bulle internet a été suivie par la montée en puissance des entreprises qui avaient survécue.
 
+---
+
 *Utilisation de l'IA pour cette entrée : O%*
 
 
-### 2026.03.22.Dim.
+### 2026.03.22.
 
 #### LLM Locaux
 
@@ -59,9 +61,13 @@ Aujourd'hui, moins de deux ans après avoir commencé à utiliser des modèles o
 
 Je suis un peu déçu par `Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q6_K` : il est bon pour des travaux d'analyses des textes que je lui soumets, mais n'est pas doué pour l'écriture créative, et il a une fâcheuse tendance à tomber en boucle, lorsque je remplis sa fenêtre contextuelles à plus de 30%. Il semble aussi ne pas comprendre les points de vue (POV, lui vs moi, quand je lui demande d'écrire une scène en POV d'un personnage il n'a pas l'air de le comprendre), et j'envisage donc de le finetuner avec des données personnelles.
 
+---
+
+*Utilisation de l'IA pour cette entrée : O%*
 
 
-### 2026.03.26.Jeu.
+
+### 2026.03.26.
 
 #### Assistant LLM
 
@@ -83,8 +89,12 @@ Ce genre de question "transversales" aurait donné des réponses médiocres si j
 
 Ces expériences m'incitent à penser que dans le cas de document moyennement bordelique  (même je fais quand même beaucoup d'effort pour la structure) comme la bible du roman, les RAG actuel, c'est à chier. A la limite un LLM secondaire avec grosse fenêtre contextuelle dans lequel on aurait chargé tout les gros documents et qu'interrogerait le LLM principal serait beaucoup plus efficace. Il semblerait que des architectures de ce type existent, mais sont assez gourmande en performance et donc peu rentable dans la plupart des cas.
 
+---
 
-### 2026.04.04.Sam.
+*Utilisation de l'IA pour cette entrée : O%*
+
+
+### 2026.04.04.
 
 #### Assistant LLM et Keep4o
 
@@ -94,8 +104,12 @@ Pendant ce temps sur Twitter que je ne fais que stalker, mon intérêt pour #Kee
 
 J'ai testé `Gemma 4-gemma-4-26b-a4b`. Lourd, mais adopté. Seule faiblesse dont je viens de m'apercevoir : il a beaucoup de mal lorsque je lui injecte la totalité de la bible de STBYHC dans son contexte, là il tourne depuis au moins une heure et demi — "Processing Prompt" à 83% — alors que c'était beaucoup plus rapide avec Qwen - finalement il s'est crashé à 93%.
 
+---
 
-### 2026.04.06.Lun.
+*Utilisation de l'IA pour cette entrée : O%*
+
+
+### 2026.04.06.
 
 #### Assistant LLM et déception
 
@@ -105,8 +119,12 @@ Conclusion de mes recherches actuelles : le Mixture of Expert sur `Gemma 4-gemma
 
 Utilisation de `qwen3.5-9b-uncensored-hauhaucs-aggressive` pour transformer la scène écrite sous forme de scénario par `gemma-4-26b-a4b`, sous forme de prose littéraire, tokens après tokens. Même s'il vient d'oublier une séquence entière et que ça ne reste un projet peu sérieux, c'est tout de même stupéfiant parce que c'était ce dont je rêvais quasiment depuis mon adolescence, en fait depuis que j'avais découvert le [Radoteur](https://flothesof.github.io/algorithme-du-radoteur.html) de Roland Moreno, un générateur de mots nouveaux issus d'une liste de mots du dictionnaire : une machine qui écrit selon mes directives.
 
+---
 
-### 2026.04.11.Sam.
+*Utilisation de l'IA pour cette entrée : O%*
+
+
+### 2026.04.11.
 
 #### VRChat-World => Point & Click Myst-Like
 
@@ -121,6 +139,8 @@ Mais je ne m'y connais absolument pas en développement web.
 Alors j'ai tenté d'utiliser des LLM locaux (``qwen3.5-35b-a3b`, puis `gemma-4-26b-a4b`) pour le développer en javascript. Le résultat était bancal et buggé. Alors, j'ai soumis le projet à Claude Opus 4.6, qui m'en a produit une version fonctionnelle et évolutive, ainsi qu'un outil pour faciliter la prise en compte des zones d'interarct.
 
 Le résultat est ici : [**Jouer — Mystery of the Coast (WIP)**](/game/)
+
+---
 
 *Utilisation de l'IA pour cette entrée : O%*
 
