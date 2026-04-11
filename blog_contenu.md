@@ -18,6 +18,8 @@ C'est pour cela qu'assisté de l'IA Claude, j'ai décidé de mettre en place ce 
 
 Il m'a fallut à peu près une journée de travail pour mettre en place le squellette de ce site, sous Jekyll. C'est moche, la publication est certainement prématuré, mais mieux vaut faire quelque chose d'imparfait rapidement que quelque chose de parfait quelque secondes avant la mort thermique de l'univers.
 
+---
+
 *Utilisation de l'IA pour cette entrée : O%*
 
 #### Todo-list
