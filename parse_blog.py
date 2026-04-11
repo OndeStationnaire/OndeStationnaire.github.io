@@ -39,14 +39,15 @@ def slugify(texte: str) -> str:
 
 def parse_date(date_str: str):
     """
-    Convertit '2026.03.11.Mer.' en ('2026-03-11', 'Mer')
-    Retourne None si le format est invalide.
+    Extrait la date depuis une chaîne de format variable.
+    Accepte : 2026.04.11.Sam. / 2026.04.06.Lun / 2026.04.04. / 2026.03.06
+    Retourne '2026-04-11' ou None si invalide.
     """
-    m = re.match(r"(\d{4})\.(\d{2})\.(\d{2})\.(\w+)\.", date_str.strip())
+    m = re.match(r"(\d{4})\.(\d{2})\.(\d{2})", date_str.strip())
     if not m:
         return None
-    annee, mois, jour, jour_semaine = m.groups()
-    return f"{annee}-{mois}-{jour}", jour_semaine
+    annee, mois, jour = m.groups()
+    return f"{annee}-{mois}-{jour}"
 
 def front_matter(date_iso: str, title: str = None) -> str:
     """Génère le front matter Jekyll."""
@@ -97,8 +98,8 @@ def parse_blog(source_path: str):
         lines = section.splitlines()
         header = lines[0].strip()
 
-        result = parse_date(header)
-        if not result:
+        date_iso = parse_date(header)
+        if not date_iso:
             continue
 
         date_iso, _ = result
