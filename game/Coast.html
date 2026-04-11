@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Côte 2216 - Point & Click</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* --- CADRE PRINCIPAL (Ratio 16:9) --- */
+        #game-frame {
+            position: relative;
+            width: 1280px;
+            height: 720px;
+            max-width: 100%; /* Responsive si écran petit */
+            background-color: #000;
+            
+            /* Bordure fine autour de l'image */
+            border-top: 2px solid #333;
+            border-bottom: 2px solid #333;
+            overflow: hidden;
+        }
+
+        /* Image du jeu */
+        #scene-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Garde l'intégralité de l'image */
+            display: block;
+            opacity: 0.95; /* Légèrement atténué si besoin */
+        }
+
+        /* --- UI TITRE (MISE EN SUS) --- */
+        #ui-title {
+            position: absolute;
+            top: -60px; /* Positionné au-dessus du cadre noir */
+            width: 1280px; /* Largeur exacte du cadre */
+            text-align: center;
+            z-index: 50;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 10px 20px;
+            background-color: #000; /* Fond noir pour lisibilité sur ciel */
+            color: #fff;
+            font-size: 24px;
+            letter-spacing: 4px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        /* --- ZONES INTERACTIVES (HOTSPOTS) --- */
+        .hotspot {
+            position: absolute;
+            cursor: pointer;
+            z-index: 20; /* Au-dessus de l'image mais pas au dessus des autres zones en cas de superposition */
+            transition: background-color 0.2s;
+        }
+
+        /* ZONE NAVIGATION (Invisible par défaut, surligne au survol) */
+        .nav-zone {
+            background-color: rgba(0, 100, 255, 0); 
+        }
+        .nav-zone:hover {
+            background-color: rgba(0, 100, 255, 0.2); /* Bleu léger */
+            border: 1px solid cyan;
+        }
+
+        /* ZONE INTERACTION (Objets) */
+        .interact-zone:hover {
+            background-color: rgba(255, 255, 0, 0.3); /* Jaune Cyberpunk */
+            box-shadow: inset 0 0 10px #fff;
+        }
+
+        /* --- CURSEUR PERSONNALISÉ --- */
+        body.cursor-hover { cursor: pointer; } 
+
+        /* --- MODAL JOURNAL (Caché par défaut) --- */
+        #journal-modal {
+            display: none !important; /* Force le caché au chargement */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            width: 700px;
+            height: 600px; /* Hauteur fixe du journal */
+            max-width: 90vw;
+            max-height: 80vh;
+            
+            background-color: #1a1a1a;
+            border: 4px solid #333;
+            box-shadow: 0 0 30px rgba(0,0,0,0.9);
+            
+            display: flex; /* Flex pour l'alignement interne (cette ligne sera override par le block ci-dessus) */
+            flex-direction: column;
+            z-index: 100; /* Toujours au dessus du jeu */
+        }
+
+        .journal-header {
+            padding: 15px;
+            background-color: #222;
+            border-bottom: 2px solid #444;
+        }
+        
+        .journal-header h2 { margin: 0; font-size: 1.2rem; color: #fff; }
+
+        .journal-content {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #252525;
+            overflow-y: auto; /* Scroll pour contenu long */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .journal-page-img { max-width: 100%; border: 1px solid #666; box-shadow: 0 0 5px rgba(0,0,0,0.8); }
+
+        .journal-footer {
+            padding: 15px;
+            background-color: #222;
+            border-top: 2px solid #444;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            background: #333; color: #fff; border: 1px solid #555; padding: 8px 12px; cursor: pointer; font-family: inherit;
+        }
+        button:hover { background-color: #444; }
+
+    </style>
+</head>
+<body id="body-element">
+
+    <!-- TITRE DU JEU -->
+    <div id="ui-title">
+        <h1 id="location-name">INITIALIZING...</h1>
+    </div>
+
+    <!-- ZONE DE JEU -->
+    <div id="game-frame">
+        <img id="scene-image" src="" alt="">
+        
+        <!-- Conteneur dynamique des zones cliquables -->
+        <div id="hotspots-layer"></div>
+    </div>
+
+    <!-- FENETRE MODALE DU JOURNAL (Cachée par défaut) -->
+    <div id="journal-modal">
+        <div class="journal-header">
+            <h2>JOURNAL DE CAROLE-LYNE</h2>
+            <small style="color:#aaa;">Objet trouvé sur le bureau</small>
+        </div>
+        
+        <div id="journal-content" class="journal-content">
+            <!-- Contenu injecté par JS -->
+        </div>
+
+        <div class="journal-footer">
+            <button onclick="Journal.prevPage()">&#8592; Précédent</button>
+            <span id="page-indicator" style="color: #aaa;">-- / --</span>
+            <button onclick="Journal.nextPage()">Suivant &#8594;</button>
+        </div>
+    </div>
+
+<script>
+/**
+ * DONNÉES DU JEU
+ * Les coordonnées x, y, w, h sont en POURCENTAGES (%) pour s'adapter au format 16:9.
+ */
+
+const LOCATIONS = [
+    {
+        id: "ext_house",
+        name: "EXTÉRIEUR MAISON",
+        image: "./images/maison.jpg", // PLACEHOLDER : REMPLACEZ PAR VOTRE FICHIER LOCAL (ex: 'house_front.jpg')
+        zones: [
+            // Zone invisible à gauche pour retourner au patio (ou autre)
+            { type: "nav", x: 0, y: 35, w: 15, h: 25, targetId: "patio" }, 
+            
+            // Porte d'entrée (Zone jaune potentielle) - approximative selon votre image
+            { type: "interact", x: 40, y: 65, w: 20, h: 30, targetId: "int_house", label: "Porte" }
+        ]
+    },
+    {
+        id: "patio",
+        name: "PATIO EXTÉRIEUR",
+        image: "./images/patio.jpg", // PLACEHOLDER
+        zones: [
+            // Retour vers l'extérieur (Gauche)
+            { type: "nav", x: 0, y: 35, w: 15, h: 25, targetId: "ext_house" },
+            
+            // Escalier vers étage (Centre-bas)
+            { type: "interact", x: 40, y: 60, w: 25, h: 30, targetId: "corridor_2nd", label: "Escalier" }
+        ]
+    },
+    {
+        id: "corridor_2nd",
+        name: "COULOIR ÉTAGE SUPÉRIEUR",
+        image: "./images/couloir.jpg", // PLACEHOLDER
+        zones: [
+            // Retour Patio (Bas)
+            { type: "nav", x: 40, y: 75, w: 25, h: 15, targetId: "patio" },
+
+            // Porte Chambre Carole-Lyne (Gauche)
+            { type: "interact", x: 5, y: 30, w: 20, h: 40, targetId: "carole_room", label: "Chambre CL" }
+        ]
+    },
+    {
+        id: "carole_room",
+        name: "CHAMBRE DE CAROLE-LYNE",
+        image: "./images/chambre_carole.jpg", // PLACEHOLDER : VOTRE IMAGE FOURNIE ICI
+        zones: [
+            // Retour Couloir (Droite)
+            { type: "nav", x: 85, y: 30, w: 10, h: 40, targetId: "corridor_2nd" },
+
+            // Journal Intime : Sur le bureau (droite-centre-bas selon votre image)
+            // Ajustez ces % manuellement pour correspondre parfaitement au journal
+            { type: "interact", x: 65, y: 40, w: 25, h: 15, targetId: "journal_item", label: "Journal" }
+        ]
+    },
+    
+    // SPÉCIAL : LIEU JOURNAL (Pas d'image de fond)
+    {
+        id: "journal_item",
+        name: "JOURNAL",
+        image: null, 
+        zones: [
+            // Zone invisible couvrant tout l'écran pour fermer le journal au clic
+            { type: "nav", x: 0, y: 0, w: 100, h: 100, targetId: "carole_room" }
+        ]
+    }
+];
+
+// --- MOTEUR DU JOURNAL ---
+const Journal = {
+    pages: [
+        { type: 'text', content: "<strong>Journée 4206.9</strong><br>Les bruits de la côte sont différents ce soir..." },
+        { type: 'image', src: "./images/notes_carole.jpg" }, // PLACEHOLDER
+        { type: 'text', content: "<strong>Journée 4207.3</strong><br>John-Nathan m'a dit que le 'Poison' n'est pas mort..." }
+    ],
+    index: 0,
+
+    open() {
+        document.getElementById('journal-modal').style.display = 'flex'; // Force l'affichage
+        this.render();
+        this.index = Math.max(0, this.index); // Reset safe
+    },
+
+    close() {
+        document.getElementById('journal-modal').style.display = 'none'; // Cache
+    },
+
+    render() {
+        const container = document.getElementById('journal-content');
+        const indicator = document.getElementById('page-indicator');
+        
+        container.innerHTML = ""; // Nettoyer
+        
+        if (this.pages[this.index]) {
+            const page = this.pages[this.index];
+            
+            if (page.type === 'text') {
+                const div = document.createElement('div');
+                div.style.whiteSpace = "pre-wrap";
+                div.innerHTML = page.content;
+                container.appendChild(div);
+            } else if (page.type === 'image' && page.src) {
+                // Placeholder si fichier manquant
+                let imgSrc = page.src; 
+                
+                const img = document.createElement('img');
+                img.className = "journal-page-img";
+                img.src = imgSrc;
+                container.appendChild(img);
+
+                // Gestion erreur image (display texte si échec)
+                img.onerror = function() {
+                    this.style.display = 'none';
+                    const txt = document.createElement('p');
+                    txt.innerText = "[IMAGE MANQUANTE - FICHIER NON TROUVÉ]";
+                    container.appendChild(txt);
+                };
+            }
+        }
+
+        indicator.textContent = `${this.index + 1} / ${this.pages.length}`;
+    },
+
+    nextPage() {
+        if (this.index < this.pages.length - 1) {
+            this.index++;
+            this.render();
+        }
+    },
+
+    prevPage() {
+        if (this.index > 0) {
+            this.index--;
+            this.render();
+        }
+    }
+};
+
+// --- MOTEUR DE NAVIGATION ---
+let currentSceneId = "ext_house";
+
+function loadScene(sceneId) {
+    const sceneData = LOCATIONS.find(s => s.id === sceneId);
+    
+    if (!sceneData) return; // Sécurité
+
+    // Mise à jour UI
+    document.getElementById('location-name').innerText = sceneData.name.toUpperCase();
+    
+    const imgElement = document.getElementById('scene-image');
+    if (sceneData.image && sceneData.image !== null) {
+        imgElement.src = sceneData.image;
+        imgElement.style.display = 'block';
+    } else {
+        // Cas spécial du journal (pas d'image de fond) ou fichier manquant
+        imgElement.src = ""; 
+        // On peut laisser l'écran noir ou mettre un placeholder par défaut si besoin
+        imgElement.style.background = "#050505"; 
+    }
+
+    renderZones(sceneData.zones);
+}
+
+function renderZones(zones) {
+    const layer = document.getElementById('hotspots-layer');
+    layer.innerHTML = ''; // Reset du conteneur de zones
+
+    zones.forEach(zone => {
+        const el = document.createElement('div');
+        
+        // Positionnement en pourcentage (responsive)
+        el.style.left = zone.x + '%';
+        el.style.top = zone.y + '%';
+        el.style.width = zone.w + '%';
+        el.style.height = zone.h + '%';
+
+        if (zone.type === 'nav') {
+            el.className += ' hotspot nav-zone'; // Zone invisible/translucide
+        } else {
+            el.className += ' hotspot interact-zone'; // Objet cliquable surligné en jaune
+        }
+
+        el.onclick = () => handleZoneClick(zone);
+
+        layer.appendChild(el);
+    });
+}
+
+function handleZoneClick(zone) {
+    // Fermer le journal si ouvert (sauf si on clique dedans pour fermer)
+    document.getElementById('journal-modal').style.display = 'none';
+
+    if (zone.targetId === "carole_room") {
+        // Clic dans les marges du journal -> retour à la chambre
+        loadScene("carole_room");
+    } else if (zone.targetId === "journal_item") {
+        // Clic sur l'objet journal -> ouvre le modal
+        Journal.open();
+    } else {
+        // Navigation normale vers un autre lieu
+        loadScene(zone.targetId);
+    }
+}
+
+// Initialisation au chargement de la page
+window.onload = function() {
+    loadScene("ext_house");
+};
+
+</script>
+</body>
+</html>

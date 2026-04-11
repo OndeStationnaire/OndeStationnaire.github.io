@@ -21,6 +21,8 @@ Blog personnel présentant un roman de science-fiction commencé dans les année
 
 [**FAQ**](/faq)
 
+[**Jouer — Mystery of the Coast (WIP)**](/game/)
+
 
 ---
 
