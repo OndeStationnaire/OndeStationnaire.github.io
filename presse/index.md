@@ -53,7 +53,7 @@ Les **Synths** et les **Spectres** — entités IA aux motivations opaques — h
 
 En arrière-plan : les artefacts de la **Civilisation X**, dont personne ne comprend encore le fonctionnement. -->
 
-**Genres :** post-apocalyptique · science-fiction · réincarnation · cassette-futurisme
+**Genres :** post-apocalyptique · science-fiction · réincarnation · cassette-futurism
 
 ---
 

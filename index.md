@@ -9,7 +9,7 @@ title: Accueil
 
 *Fiction post-apocalyptique — 2026*
 
-Lorem ipsum dolor sit amet parce que je ne sais pas encore quoi mettre ici en introduction, consectetur adipiscing elit. Quisque blandit mattis nisi, vitae porttitor diam commodo id. Fusce condimentum libero sapien, tempor semper lorem efficitur ac. Nullam egestas feugiat turpis, id feugiat dolor luctus in. Donec placerat dictum purus sed semper. Ut quis massa at ante fermentum euismod. Mauris porta. 
+Blog personnel présentant un roman de science-fiction commencé dans les années 1990, repris vers 2025, et son évolution transmédia jusqu'ici.
 
 [**Monde**](/monde)
 
