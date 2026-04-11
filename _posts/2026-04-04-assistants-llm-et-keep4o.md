@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-04-04
-title: "Assistant LLM et Keep4o"
+title: "Assistants LLM et Keep4o"
 ---
 
 Suite de mes expériences avec des LLM Locaux

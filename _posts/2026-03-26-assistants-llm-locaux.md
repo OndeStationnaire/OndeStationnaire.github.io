@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-03-26
-title: "Assistant LLM"
+title: "Assistants LLM locaux"
 ---
 
 `Qwen3.5-9B` devient mon meilleur assistant, même sa version censurée / non-abliterée `Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q6_K`. De toute façon je préfère l'utiliser en mode non-thinking)

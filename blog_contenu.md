@@ -30,7 +30,7 @@ Il m'a fallut à peu près une journée de travail pour mettre en place le squel
 
 #### IA : On sent un truc
 
-Jeudi dernier, pot de départ de d'un collège. Nous avons finis dans un bar.
+Jeudi dernier, pot de départ d'un collègue. Nous avons finis dans un bar.
 
 Avant cela j'ai discuté pendant assez longtemps avec un autre collège administrateur système très compétent en Linux et poussant toujours à chercher les solutions open-source, évidemment radicalement opposé aux IA — en tout cas c'était le cas la dernière fois que nous en avons parlé. Mais depuis, il est désormais abonné en Pro à Claude (200 $ par mois, quand même), et il m'a montré l'intégration de Claude Code dans VSCode. Impressionnant.
 
@@ -69,7 +69,7 @@ Je suis un peu déçu par `Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q6_K` : il 
 
 ### 2026.03.26.
 
-#### Assistant LLM
+#### Assistants LLM locaux
 
 `Qwen3.5-9B` devient mon meilleur assistant, même sa version censurée / non-abliterée `Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q6_K`. De toute façon je préfère l'utiliser en mode non-thinking)
 
@@ -96,7 +96,7 @@ Ces expériences m'incitent à penser que dans le cas de document moyennement bo
 
 ### 2026.04.04.
 
-#### Assistant LLM et Keep4o
+#### Assistants LLM et Keep4o
 
 Suite de mes expériences avec des LLM Locaux
 
@@ -111,7 +111,7 @@ J'ai testé `Gemma 4-gemma-4-26b-a4b`. Lourd, mais adopté. Seule faiblesse dont
 
 ### 2026.04.06.
 
-#### Assistant LLM et déception
+#### Assistants LLM et déception
 
 Conclusion de mes recherches actuelles : le Mixture of Expert sur `Gemma 4-gemma-4-26b-a4b`, ça ne marche pas très bien, c'est très lent. Et il a vraiment du mal avec les fenêtres contextuelles trop longue. Je crois que je vais rester sur Qwen.
 

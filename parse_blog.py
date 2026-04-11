@@ -102,8 +102,8 @@ def parse_blog(source_path: str):
         if not date_iso:
             continue
         
-        print(f"  → Section trouvée : {date_iso}")  # DEBUG
-        
+        print(f"  -> Section trouvée : {date_iso}")  # DEBUG
+
         body_raw = "\n".join(lines[1:]).strip()
 
         if not body_raw:

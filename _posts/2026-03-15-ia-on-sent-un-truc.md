@@ -4,7 +4,7 @@ date: 2026-03-15
 title: "IA : On sent un truc"
 ---
 
-Jeudi dernier, pot de départ de d'un collège. Nous avons finis dans un bar.
+Jeudi dernier, pot de départ d'un collègue. Nous avons finis dans un bar.
 
 Avant cela j'ai discuté pendant assez longtemps avec un autre collège administrateur système très compétent en Linux et poussant toujours à chercher les solutions open-source, évidemment radicalement opposé aux IA — en tout cas c'était le cas la dernière fois que nous en avons parlé. Mais depuis, il est désormais abonné en Pro à Claude (200 $ par mois, quand même), et il m'a montré l'intégration de Claude Code dans VSCode. Impressionnant.
 

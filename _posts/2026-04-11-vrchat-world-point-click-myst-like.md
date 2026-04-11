@@ -27,6 +27,8 @@ https://squoosh.app/
 
 cmd <racine>
 
+python parse_blog.py
+
 git add .
 
 git commit -m "
