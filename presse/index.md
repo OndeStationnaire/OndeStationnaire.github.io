@@ -11,6 +11,10 @@ title: Dossier de presse
 
 ## Pitch
 
+![Pitch](/assets/img/pitch-02.jpg)
+
+
+
 > « Remembering all past lives. Surviving in this one. »
 
 Dans ce **futur ravagé**, se souvenir de **ses vies antérieures** est presque aussi banal que filtrer l'eau des **pluies acides**.
